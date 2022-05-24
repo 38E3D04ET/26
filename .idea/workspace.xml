@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8dd7697b-0615-4216-9215-6f4297a1c278" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/NewsPaper/errors.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewsPaper/general.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewsPaper/news/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewsPaper/security.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewsPaper/templates/mail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/Newspaper/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/Newspaper/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/appointment/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/appointment/tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/news/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/news/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/news/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/news/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/news/signals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/news/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/flatpages/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/flatpages/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/sample_app/post_create.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/sample_app/post_create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/sample_app/post_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/sample_app/post_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/sample_app/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/sample_app/post_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/sign/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/sign/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/sign/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/sign/logout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/sign/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/sign/signup.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="29KNWXj0ksonIPyqvWth9Htmi2c" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/NewsPaper" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\#Data#\Рабочий стол\clons\Clon23\23\NewsPaper" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8dd7697b-0615-4216-9215-6f4297a1c278" name="Changes" comment="" />
+      <created>1652857849006</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652857849006</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

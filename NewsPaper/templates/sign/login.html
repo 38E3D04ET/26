@@ -1,0 +1,30 @@
+{% extends "main.html" %}
+
+{% block content %}
+<h2>&nbsp;</h2>
+<h2><i>Войти в систему<i></h2>
+<h2>&nbsp;</h2>
+<hr>
+<a>Авторизуйтесь или создайте новый аккаунт</a>
+<hr>
+<!--форма отправки введенных данных от пользователя-->
+<form method="post" action="{% url 'login' %}">
+    {% csrf_token %}
+    <table>
+        <tr>
+            <h2>&nbsp;</h2>
+            <td>&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp{{ form.username.label_tag }}</td>
+            <td>{{ form.username }}</td>
+        </tr>
+        <tr>
+            <td>&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp{{ form.password.label_tag }}</td>
+            <td>{{ form.password }}</td>
+        </tr>
+    </table>
+<h2>&nbsp;</h2>
+    <!--кнопка отправки данных и входа на сайт-->
+    <input type="submit" value="____Войти____">
+</form>
+
+<button><a href="/sign/signup"> Регистрация </a></button>
+{% endblock %}

@@ -1,0 +1,61 @@
+{% extends 'flatpages/default.html' %}
+
+{% load censor %}
+ 
+{% block title %}{% endblock title %}
+ 
+{% block content %}
+<h2>&nbsp;</h2>
+<h2><i>Подробности</i></h2>
+<h2>&nbsp;</h2>
+<table>
+    <thead>
+        <th>
+            Категория
+        </th>
+        <th>
+            Источник
+        </th>
+        <th>
+            Дата
+        </th>
+        <th>
+            Имя
+        </th>
+        <th>
+            Текст
+        </th>
+    </thead>
+    <tr>
+        <td>
+            {{ post.category }}
+        </td>
+        <td>
+            {{ post.source.name }}
+        </td>
+        <td>
+            {{ post.date|date:'d M Y h:i' }}
+        </td>
+        <td>
+            {{ post.name|censor }}
+        </td>
+        <td>
+            {{ post.description|censor }}
+        </td>
+        <hr>
+
+        <a>Всего в категории {{ post.category }} новостей: &nbsp &nbsp &nbsp {{ posts|length }} &nbsp &nbsp &nbsp &nbsp</a>
+
+            {% if is_not_subscribe %}
+
+            <button><a href="add_subscribe/?pk={{ post.category.id }}">Подписаться на все новости категории "{{ post.category }}"</a></button>
+            {% endif %}
+
+            {% if is_subscribe %}
+            <button><a href="del_subscribe/?pk={{ post.category.id }}">Отписаться от новостей категории "{{ post.category }}"</a></button>
+            {% endif %}
+
+        <hr>
+    </tr>
+</table>
+{% endblock content %}

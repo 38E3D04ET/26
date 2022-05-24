@@ -1,0 +1,16 @@
+{% extends "main.html" %}
+
+{% block content %}
+<h2>&nbsp;</h2>
+<h2><i>Войти в систему<i></h2>
+<h2>&nbsp;</h2>
+<hr>
+<a>Введите данные для регистрации</a>
+<hr>
+<form method="post">
+{% csrf_token %}
+{{ form.as_p }}
+<input type="submit" value="Продолжить">
+</form>
+{% endblock %}
+
